@@ -1,0 +1,81 @@
+@charset "utf-8";
+*{margin:0px; padding:0px;}
+html,body{background-color: #FFFFFF;color: #FFFFFF; height: 100%;min-height:100%;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;
+	padding: 0;margin: 0;
+	font-size:medium;
+	font-family: verdana,helvetica,arial,sans-serif;}
+.main{height: 100%;margin: 0;padding: 0;}
+.section{min-height: 100%;margin: 0;padding: 0;display: block;}
+#nav{position: fixed;right:50px;top:40%;width: 100px;list-style:none;color:white;background-color: darkslategray;z-index:999;}
+#nav li{margin:0;padding: 5px 20px;border-bottom: solid 1px gray;}
+.active a{color: darkgray;}
+ul li a{color: #fff;font-size: 1.2em;text-align: center;}
+.BigText{font-family: "楷体_GB2312";font-size: 1.5em;padding-top: 20%;}
+.BigText2{font-size: 1.5em;padding-top: 10%;}
+.box{width: 100%;max-width: 1000px;margin: 0 auto;text-align: center;vertical-align: middle;}
+h2 a{color:rgba(255,255,255,.6);line-height: 100px;}
+.clear{clear: both;}
+
+#Home{background-color: #3498db;}
+
+#Basic{font-family: "宋体";background: #9b59b6;color: white;}
+.boxImg{width:200px;height:200px;border-radius:50%; overflow:hidden;margin: 0px auto;}
+#top .boxImg{border: solid; box-shadow: rgb(77, 66, 82) 0 8px 8px;}
+#information{
+	width: 70%;margin: 0 auto; color:white;
+/*background-image:  -webkit-linear-gradient(rgb(229, 184, 247), rgb(199, 133, 226));
+background-image:  -moz-linear-gradient(rgb(229, 184, 247), rgb(199, 133, 226));
+background-image:  -o-linear-gradient(rgb(229, 184, 247), rgb(199, 133, 226));
+background-image:  -webkit-gradient(linear, 0 0, 0 100%, from(rgb(229, 184, 247)), to(rgb(199, 133, 226)));
+background-image:  linear-gradient(rgb(229, 184, 247), rgb(199, 133, 226));
+box-shadow: 0px 3px 3px rgba(75, 45, 87, 0.8);*/
+padding-top: 10%;}
+#information div{width:216px;height: 28px;margin: 10px auto;line-height: 28px;position: relative;border: none;float: left;text-align:left;}
+a{text-decoration: none;color: #fff;font-style: italic;}
+#clear{clear: both;}
+#top{padding-top: 10%; }
+/**/
+#Ability{background-color:  #34495e;}
+.circle {width: 100px;height: 100px;  position: absolute;border-radius: 50%;background: #3498DB;}
+.pie_left, .pie_right {width: 100px; height: 100px;position: absolute;top: 0;left: 0;}
+.left, .right {display: block;width:100px; height:100px;background:#1a2933;border-radius: 50%;position: absolute;top: 0;left: 0;transform: rotate(30deg);}
+.pie_right, .right {clip:rect(0,auto,auto,50px);}
+.pie_left, .left {clip:rect(0,50px,auto,0);}
+.mask {width: 70px;height: 70px;border-radius: 50%;left: 15px;top: 15px;background: #34495e;position: absolute;text-align: center;line-height: 70px; font-size: 1.5em;}
+
+/**/
+.MedTitle{margin-bottom: 20px;}
+.Acenter{width:90%;margin: 0 auto;}
+#left{width: 49.9%;position: relative;top:50px;float: left;}
+#right{width: 49.9%;position: relative;top:50px;float: right;}
+.leftBox{float: left;width:100px;height: 130px;margin: 15px 20px;}
+.circleText{position: relative;top:110px;text-align: center;font-size: 1.1em;}
+.circleText2{text-align: center;vertical-align: middle;line-height: 100px;font-weight: bolder;}
+.CerP{margin:15px 50px;}
+.CerP ul li{line-height: 30px;}
+
+/*Project*/
+#Project{background: #1abc9c;}
+#Project .box{padding-bottom: 50px;}
+.ProList{margin: 15px 20px;width: 45%;height:220px;float: left;position: relative;}
+.ProList-left{width: 30%;float: left;text-align: center;}
+.ProList-right{width: 70%;float: right;}
+.ProList-right h2{margin-bottom: 10px;color: #34495e;font-family: "微软雅黑";}
+.ProList-right p{padding: 5px 20px 0px 0px;color:#d9d6c3;}
+#Project .Acenter{width: 100%;}
+
+/*End*/
+#End{color:#e74c3c;background: #fff;}
+#Job .BigText2 h1{margin-bottom: 40px;text-shadow: #333 0 2px 0px;color:#e74c3c;}
+.BigText2 h2{font-family: "宋体";margin-bottom: 10px;text-shadow: #333 0 1px 0px;color:#e74c3c;}
+.BigText2 p{margin-top: 20px;font-family: "楷体_GB2312";color:#34495e ;}
+#last{color:#ffd400;}
+ canvas {
+                position: absolute;
+                top: 400%;
+                left: 0;
+                z-index: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+            }
